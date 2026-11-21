@@ -1,0 +1,8 @@
+in postgres there is a flyway migration issue so added a configuration file to already fix it permanently
+
+to check flyway history what have been in past flyway_schema_history
+
+when using flyway if u have typed anything worng like i did in v3 mein mene role ki spelling glt krdi thi
+then do not try to re run by correcting always make a new sql file and rewrite the corrected qeury into the new version of sql file
+
+platform admin responsibility is to create tenant admin and assign passs and usernam through database direct entry
